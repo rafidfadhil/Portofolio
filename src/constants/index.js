@@ -24,6 +24,7 @@ import {
   threejs,
   AfterEffect,
   BFI,
+  Accurate,
 } from "../assets";
 
 export const navLinks = [
@@ -146,7 +147,7 @@ const experiences = [
     title: "Digital Product Owner",
     company_name: "BFI Finance Indonesia",
     icon: BFI,
-    iconBg: "#FFFFFF",
+    iconBg: "#E6DEDD",
     date: "Mei 2023 - August 2023",
     points: [
       "Managing Product Roadmap: Developed and managed the digital product roadmap, ensuring alignment with the company’s vision and market needs while prioritizing features and initiatives based on business value.",
@@ -154,19 +155,19 @@ const experiences = [
       "Creating Hi-Fi and Lo-Fi Prototypes: Developed high-fidelity (Hi-Fi) and low-fidelity (Lo-Fi) prototypes to visualize and test product concepts before development.",
     ],
   },
-  // {
-  //   title: "Full stack Developer",
-  //   company_name: "Meta",
-  //   icon: meta,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2023 - Present",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
+  {
+    title: "UI|UX DESIGNER",
+    company_name: "Accurate Indonesia",
+    icon: Accurate,
+    iconBg: "#E6DEDD",
+    date: "Maret 2025 - Present",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
 ];
 
 const testimonials = [
